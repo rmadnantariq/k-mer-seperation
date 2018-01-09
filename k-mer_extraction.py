@@ -51,17 +51,6 @@ def main():
                 outfile1.write('\n')
                 outfile1.write(quality)
                 outfile1.write('\n')
-        if med > 80:
-            if med < 131:
-                outfile2.write('@')
-                outfile2.write(header)
-                outfile2.write('\n')
-                outfile2.write(seq)
-                outfile2.write('\n')
-                outfile2.write('+')
-                outfile2.write('\n')
-                outfile2.write(quality)
-                outfile2.write('\n')
 
         hist[med] = hist.get(med, 0) + 1
 
