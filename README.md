@@ -3,6 +3,7 @@
 
 
 The script requires firstly that the raw fastq file were shuffled using velvet's shuffleSequences.pl script.
+The khmer v1.1 was used.
 Then loaded into a counting table using the Khmer load-into-counting.py script. 
 You must create a histogram graph of the k-mers using the Khmer script abundance-dist.py.
 
